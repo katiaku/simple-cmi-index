@@ -3,42 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" src="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="main.js"></script>
     <title>CMI Calculator</title>
 </head>
 <body>
-    <header>CMI Calculator</header>
-    <table>
-        <tr>
-            <th>CMI</th>
-            <th>CLASSIFICATION</th>
-        </tr>
-        <tr>
-            <td>&lt; 18.5</td>
-            <td>Underweight</td>
-        </tr>
-        <tr>
-            <td>18.5 - 24.9</td>
-            <td>Normal Weight</td>
-        </tr>
-        <tr>
-            <td>25.0 - 29.9</td>
-            <td>Grade I Obesity</td>
-        </tr>
-        <tr>
-            <td>30.0 - 34.9</td>
-            <td>Grade II Obesity</td>
-        </tr>
-        <tr>
-            <td>35.0 - 39.9</td>
-            <td>Grade III Obesity</td>
-        </tr>
-        <tr>
-            <td>&gt; 40</td>
-            <td>Grade IV Obesity</td>
-        </tr>
-    </table>
-    <button>Calculate CMI</button>
+    <div>
+        <header>CMI CALCULATOR</header>
+        <table>
+            <tr>
+                <th>CMI</th>
+                <th>CLASSIFICATION</th>
+            </tr>
+            <tr id="underweight">
+                <td>&lt; 18.5</td>
+                <td>Underweight</td>
+            </tr>
+            <tr id="normal">
+                <td>18.5 - 24.9</td>
+                <td>Normal Weight</td>
+            </tr>
+            <tr id="grade1">
+                <td>25.0 - 29.9</td>
+                <td>Grade I Obesity</td>
+            </tr>
+            <tr id="grade2">
+                <td>30.0 - 34.9</td>
+                <td>Grade II Obesity</td>
+            </tr>
+            <tr id="grade3">
+                <td>35.0 - 39.9</td>
+                <td>Grade III Obesity</td>
+            </tr>
+            <tr>
+                <td>&gt; 40</td>
+                <td>Grade IV Obesity</td>
+            </tr>
+        </table>
+        <button>Calculate CMI</button>
+    </div>
 </body>
 </html>
